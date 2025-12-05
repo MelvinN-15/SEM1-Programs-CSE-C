@@ -16,3 +16,9 @@ int main() {
     
     return 0;
 }
+/*
+OUTPUT:
+Enter radius: 13
+Area of the circle: 530.66
+Circumference of the circle: 81.64
+*/
