@@ -28,9 +28,9 @@ void withdraw(int amt) {
 void inquiry() {
     printf("Balance amount: %d\n",acc.balance);
     for(int i=0; i<10; i++) {
-        if(acc.arr[i]>0)
+        if(acc.arr[i]<0)
             printf("Debited: %d\n",acc.arr[i]);
-        else if(acc.arr[i]<0)
+        else if(acc.arr[i]>0)
             printf("Credited: %d\n",acc.arr[i]);
     }
 }
