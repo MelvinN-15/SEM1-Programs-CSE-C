@@ -1,5 +1,5 @@
 1.
-a)  Write a Program to print the count of even numbers between 1 and 200.Also print their sum.
+a) Write a Program to print the count of even numbers between 1 and 200.Also print their sum.
 b) Write a Program to calculate simple interest and compound interest.
 
 2.
