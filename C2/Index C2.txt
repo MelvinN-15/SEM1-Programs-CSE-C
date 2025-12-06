@@ -1,1 +1,79 @@
+1.
+a)  Write a Program to print the count of even numbers between 1 and 200.Also print their sum.
+b) Write a Program to calculate simple interest and compound interest.
+
+2.
+a) Write a Program to  calculate the average of first n numbers.
+b) Write a Program to read a character until a * is encountered.Also Count the number of upper caase, loweer case and numbers entered by the users.
+
+3.
+a) Write a Program to classify a given number as Prime or Composite
+b) Write a Program to Print reverse  of a number.
+
+4.
+a) Write a program to print the multiplication table
+b)Write a function that receives an array and its size, and returns the second largest element.
+
+5.
+a)Create a structure for employee with name, id, salary. Write a program to display the employee with the highest salary.
+b)Write a C program to reverse a given string using built-in function
+
+6.
+a)Create an enum for Days (Mon–Sun). Take a number from user and print the corresponding day name.
+b)Write a program to check whether a string is a palindrome.
+
+7.
+a) Write a Program to Access Array Elements Using Pointers
+b) Write a Program to Print reverse  of a number.
+
+8.
+a)Write a Program to find the Sum of all Elements in 3D array
+b)Write a program to count digits, alphabets, and special characters in a string.
+
+9.
+a)Using a union, store either date (dd, mm, yyyy) or time (hh, mm, ss) and display based on user choice.
+b) Write a Program to display factorial of given number
+
+10.
+a)Write a Program to enter two points and then calculate the distance between them using Structure
+b)Write a program to calculate salary of an employee,, given his basic pay (to be entered by user),HRA= 10% of the basic pay,TA= 5% of basic pay.Define HRA and TA as Constant and use them to calculate the salary of the employee
+
+11.
+a) Write a program to find biggest of three integers using functions.
+b) Write a program to insert a number in an array that is already sorted in ascending order
+
+12.
+a)Write a C program to store and display student grades in an array.
+b)Write a C program to dynamically allocate memory for strings and perform operation on  them.
+
+13.
+a)Write a C program to perform matrix multiplication 
+b)Write a C program to reverse a given string using built-in function
+
+14.
+a)Write a C program to print the following pattern:
+A
+B B
+C C C
+D D D D
+b)Write a C program to convert a string to uppercase or lowercase.
+
+15.
+a)Write a C program that takes a user's grade percentage and converts it to a letter grade (A, B, C, D, F).
+b)Write a C program to print the sum of integers passed as command line arguments
+
+16.
+a)Write a C program to find the largest and smallest element in an array.
+b)Write a C program to dynamically deallocate memory allocated using malloc() or calloc().
+
+17. Define a structure called book with book name, author name and price. Write a C program t o read the details obook 
+
+18. Write a C program to store and display a union of student and employee information.
+
+19. Develop a C program to store and display date (day, month, year) using structures.
+
+20.
+a)Create a structure for employee with name, id, salary. Write a program to display the employee with the highest salary.
+b)Write a C program to reverse a given string using built-in function
+
 
