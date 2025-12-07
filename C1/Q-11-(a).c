@@ -1,3 +1,13 @@
+/*
+
+Write a C program to print the following pattern:
+   A
+  B B
+ C C C
+D D D D
+
+*/
+
 #include <stdio.h>
 
 int main() {
@@ -14,3 +24,12 @@ int main() {
 
 	return 0;
 }
+
+
+/*
+OUTPUT:
+   A 
+  B B 
+ C C C 
+D D D D 
+*/
