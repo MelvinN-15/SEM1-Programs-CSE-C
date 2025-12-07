@@ -17,32 +17,32 @@ a) Write a program to print the multiplication table
 b)Write a function that receives an array and its size, and returns the second largest element.
 
 5.
-a)Create a structure for employee with name, id, salary. Write a program to display the employee with the highest salary. DO
+a)Create a structure for employee with name, id, salary. Write a program to display the employee with the highest salary.
 b)Write a C program to reverse a given string using built-in function (C1 14.B)
 
 6.
-a)Create an enum for Days (Mon–Sun). Take a number from user and print the corresponding day name. DO
+a)Create an enum for Days (Mon–Sun). Take a number from user and print the corresponding day name.
 b)Write a program to check whether a string is a palindrome. (C1 10.B)
 
 7.
-a) Write a Program to Access Array Elements Using Pointers DO
+a) Write a Program to Access Array Elements Using Pointers.
 b) Write a Program to Print reverse  of a number. (SAME AS C2 3.B)
 
 8.
-a)Write a Program to find the Sum of all Elements in 3D array DO
-b)Write a program to count digits, alphabets, and special characters in a string. DO
+a)Write a Program to find the Sum of all Elements in 3D array.
+b)Write a program to count digits, alphabets, and special characters in a string.
 
 9.
-a)Using a union, store either date (dd, mm, yyyy) or time (hh, mm, ss) and display based on user choice. DO
+a)Using a union, store either date (dd, mm, yyyy) or time (hh, mm, ss) and display based on user choice.
 b) Write a Program to display factorial of given number (C1 17.A)
 
 10.
-a)Write a Program to enter two points and then calculate the distance between them using Structure DO
-b)Write a program to calculate salary of an employee,, given his basic pay (to be entered by user),HRA= 10% of the basic pay,TA= 5% of basic pay.Define HRA and TA as Constant and use them to calculate the salary of the employee DO
+a)Write a Program to enter two points and then calculate the distance between them using Structure
+b)Write a program to calculate salary of an employee,, given his basic pay (to be entered by user),HRA= 10% of the basic pay,TA= 5% of basic pay.Define HRA and TA as Constant and use them to calculate the salary of the employee
 
 11.
-a) Write a program to find biggest of three integers using functions. DO
-b) Write a program to insert a number in an array that is already sorted in ascending order DO
+a) Write a program to find biggest of three integers using functions.
+b) Write a program to insert a number in an array that is already sorted in ascending order.
 
 12.
 a)Write a C program to store and display student grades in an array. (C1 13.A)
