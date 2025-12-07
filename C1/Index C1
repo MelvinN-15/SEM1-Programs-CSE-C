@@ -49,9 +49,9 @@ b)Write a C program to check if a given string is a palindrome.
 
 11.
 a)Write a C program to print the following pattern:
-A
-B B
-C C C
+   A
+  B B
+ C C C
 D D D D
 b)Write a C program to convert a string to uppercase or lowercase.
 
