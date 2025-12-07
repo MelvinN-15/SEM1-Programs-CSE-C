@@ -1,8 +1,6 @@
 // Create a C program to store and display transaction records (date, amount, description) in sequential file
 
 #include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
 
 struct Transaction {
     char date[15];        
