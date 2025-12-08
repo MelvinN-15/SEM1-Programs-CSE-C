@@ -1,49 +1,71 @@
 // Write a C program to store and display a union of student and employee information
 
+
 #include <stdio.h>
 #include <string.h>
 
-struct data {
-    char occ;
+struct student {
+
     char name[50];
-    union{
-        int empid;
-        int rollno;
-    };
+    int rollno;
     int age;
 };
 
+struct employee {
+    
+    char name[50];
+    int empid;
+    int age;
+};
+
+union {
+
+  struct student S;
+  struct employee E;
+
+}U;
+
 int main() {
-    struct data A;
+
+    char occ;
     
     printf("Enter your occupation - Student(S) / Employee(E) e.g. S: ");
-    scanf("%c",&A.occ);
+    scanf("%c",&occ);
     
-    printf("Enter your name: ");
-    scanf("%s",A.name);
-    printf("Enter your age: ");
-    scanf("%d",&A.age);
     
-    if(A.occ=='S') {
+    if(occ=='S') {
+        printf("Enter your name: ");
+        scanf("%s",U.S.name);
+        printf("Enter your age: ");
+        scanf("%d",&U.S.age);
         printf("Enter your roll number: ");
-        scanf("%d",&A.rollno);
+        scanf("%d",&U.S.rollno);
     }
-    else if(A.occ=='E') {
+    else if(occ=='E') {
+        printf("Enter your name: ");
+        scanf("%s",U.E.name);
+        printf("Enter your age: ");
+        scanf("%d",&U.E.age);
         printf("Enter your employee id: ");
-        scanf("%d",&A.empid);
+        scanf("%d",&U.E.empid);
     }
     
     printf("\nDisplaying data: ");
     
     printf("\nOccupation: ");
-    printf((A.occ=='S'?"Student":"Employee"));
-    printf("\nName: %s",A.name);
+    printf((occ=='S'?"Student":"Employee"));
     
-    if(A.occ=='E')
-        printf("\nEmp ID: %d",A.empid);
-    else
-        printf("\nRoll no: %d",A.rollno);
-    printf("\nAge: %d",A.age);
+    if(occ=='E') {
+        printf("\nName: %s",U.E.name);
+        printf("\nEmp ID: %d",U.E.empid);
+        printf("\nAge: %d",U.E.age);
+    }else{
+        printf("\nName: %s",U.S.name);
+        printf("\nRoll no: %d",U.S.rollno);
+        printf("\nAge: %d",U.S.age);
+    }   
+        
+    
     
     return 0;
 }
